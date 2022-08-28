@@ -5,4 +5,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('shopping/', include('djoser.urls')),
     path('shopping/', include('djoser.urls.authtoken')),
+    path('shopping/', include('product.urls'))
 ]
